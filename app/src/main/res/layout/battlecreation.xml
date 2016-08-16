@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/competitor1"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/playersRadio"
+            android:contextClickable="false">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/players_2"
+                android:id="@+id/radio2players"
+                android:textColor="#ffffff"
+                android:checked="true"
+                android:layout_marginLeft="5dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/players_3"
+                android:id="@+id/radio3players"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/players_4"
+                android:id="@+id/radio4players"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/players1Line">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/player_1"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/competitor1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:maxLength="9"
+                android:selectAllOnFocus="true"
+                android:layout_gravity="center_horizontal"
+                android:enabled="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/players2Line">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/player_2"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/competitor2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:maxLength="9"
+                android:selectAllOnFocus="true"
+                android:layout_gravity="center_horizontal"
+                android:enabled="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/players3Line"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/player_3"
+                android:id="@+id/competitor3Text"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/competitor3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:maxLength="9"
+                android:selectAllOnFocus="true"
+                android:layout_gravity="center_horizontal"
+                android:enabled="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/players4Line"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/player_4"
+                android:id="@+id/competitor4Text"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/competitor4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:maxLength="9"
+                android:selectAllOnFocus="true"
+                android:layout_gravity="center_horizontal"
+                android:enabled="true" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button"
+            android:id="@+id/startBtn"
+            android:singleLine="false"
+            android:layout_below="@+id/editText4"
+            android:onClick="startBattle"
+            android:layout_marginTop="29dp"
+            android:width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnmenu"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

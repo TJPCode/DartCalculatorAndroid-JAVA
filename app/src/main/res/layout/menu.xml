@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenu"
+    android:id="@+id/gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:background="@drawable/bgimg">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/darts_25"
+                    android:id="@+id/darts25"
+                    android:onClick="select25darts"
+                    android:background="@drawable/btnmenu"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"
+                    android:padding="30dp"
+                    android:width="140dp"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/darts_50"
+                    android:id="@+id/darts50"
+                    android:onClick="select50darts"
+                    android:background="@drawable/btnmenu"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"
+                    android:padding="30dp"
+                    android:width="140dp"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/darts_125"
+                    android:id="@+id/darts125"
+                    android:onClick="select125darts"
+                    android:background="@drawable/btnmenu"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"
+                    android:padding="30dp"
+                    android:width="140dp"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/darts_250"
+                    android:id="@+id/darts250"
+                    android:onClick="select250darts"
+                    android:background="@drawable/btnmenu"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"
+                    android:padding="30dp"
+                    android:width="140dp"
+                    android:enabled="true"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_battle"
+                    android:id="@+id/createGame"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="selectBattle"
+                    android:background="@drawable/btnmenu"
+                    android:textColor="#ffffff"
+                    android:width="290dp"
+                    android:padding="30dp"
+                    android:textSize="22sp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
