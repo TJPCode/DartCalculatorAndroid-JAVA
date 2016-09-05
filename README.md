@@ -2,11 +2,14 @@
 
 Työkalut: Android Studio 2.0, Samsung Galaxy S4.
 
+--------------------------------------------
+
 Sovellus on kehitetty Android Studiolla ja testattu emulaattorilla sekä Samsung Galaxy S4 -puhelimella. Paras yhteensopivuus on Androidin versiosta 4.4.4 (KitKat) alkaen.
 
 Käyttäjä voi valita 25, 50, 125 tai 250 tikan sarjan. Sovellukseen syötetään jokaisella kierroksella viiden tikan pisteet ja sovellus laskee kierroksen yhteispisteet. Viimeisen kierroksen jälkeen sovellus näyttää kokonaispisteet. Sovelluksella on myös mahdollista luoda 25 tikan kisa, johon voi osallistua 2-4 heittäjää. 
 
--TIKKALASKURI-
+--------------------------------------------
+TIKKALASKURI
 
 Kierros valmis -nappi on disabloitu kunnes kaikissa viidessä tikka-tekstikentässä on jokin numeroarvo. Kenttiin voi syöttää vain numeroita ja maksimissaan kaksi merkkiä. Napin painamisen jälkeen tikka-tekstikentät tyhjentyvät, nappi disabloituu ja ylhäällä oleva kierroksen kertova teksti päivittyy.
 
@@ -14,7 +17,8 @@ Nollaa-nappi tyhjentää kyseisen näkymän tiedot. Nappia painettaessa ilmestyy
 
 Tuloslistassa näytetään kierrosten heitot ja ne käännetään laskevaan järjestykseen eli kierroksen suurimman heiton arvo tulee ensimmäisenä. Kun viimeinen kierros tulee päätökseen, tekstikentät ja kierros valmis -nappi disabloidaan. Ylhäällä näytetään kokonaispisteet.
 
--KISA-
+--------------------------------------------
+KISA
 
 Käyttäjä valitsee osallistujien määrän. Tekstikenttiä tulee ja poistuu näkyvistä riippuen radionapin valinnasta. Aloita-nappi enabloituu vasta kun kaikissa nimikentissä on tekstiä ja disabloituu, jos nimikentästä poistetaan teksti.
 
